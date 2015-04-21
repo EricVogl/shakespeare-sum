@@ -1,10 +1,13 @@
-Install Shakespeare
-> brew install shakespeare -v
+1) Install Shakespeare
+brew install shakespeare -v
 
-Convert the .spl file to .c
-> spl2c < compress.spl > compress.c
+2) Convert the .spl file to .c
+spl2c < sum.spl > sum.c
 
-Build
-> make
+3) Build
+make
 
+4) Run
+./sum
 
+YAY
