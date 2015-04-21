@@ -13,7 +13,7 @@ INC = -I`brew --cellar`/../include
 LFLAGS = -L`brew --cellar`/../lib -lspl
   
 # the name to use for both the target source file, and the output file:
-TARGET = hello
+TARGET = sum
   
 all: $(TARGET)
   
